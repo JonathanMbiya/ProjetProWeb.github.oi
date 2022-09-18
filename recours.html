@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>RECOURS </title>
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+		<style>.auth-body {font-family: 'Roboto', 'Noto', sans-serif; background: #F5F5F5;}.logo {margin-bottom: 16px; margin-left: -7px;}#auth-required {width: 420px; padding: 40px; display: block; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #FFFFFF; -webkit-box-shadow: 1px 2px 5px 2px rgba(0,0,0,0.35); -moz-box-shadow: 1px 2px 5px 2px rgba(0,0,0,0.35); box-shadow: 1px 2px 5px 2px rgba(0,0,0,0.35);}.project-name {font-size: 24px; font-weight: 400; letter-spacing: -.012em; line-height: 32px; max-width: 350px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}.overflow-protected {max-width: 250px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: inline-block; vertical-align: bottom;}.auth-prompt {font-size: 14px; font-weight: 400; padding-top: 5px; padding-bottom: 20px; line-height: 20px;}.auth-warning {display: flex; padding: 0px 20px; align-items: center; justify-content: center;}.warning-icon {display: flex; align-items: center; justify-content: center; padding: 8px; margin: 0px 20px 0px -8px;}.warning-text {font-size: 14px; font-weight: 400; line-height: 20px;}.auth-buttons {margin-top: 50px; display: flex; justify-content: flex-end;}.auth-button {cursor: pointer; font-size: 14px; text-transform: uppercase; padding: 12px 26px; border: none; margin: 0 0.29em;}#auth-button-cancel {background-color: #FFFFFF; color: #4285F4; font-weight: 500;}#auth-button-confirm {background-color: #4285F4; color: #FFFFFF; font-weight: 500; -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.35); -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.35); box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.35);}#auth-cancel {font-size: 14px; max-width: 448px; position: relative; margin: auto; padding-top: 120px; display: none;}#auth-cancel-link {color: -webkit-link;}a {text-decoration: none;}a:hover {text-decoration: underline;}hr {border: 1px solid #F5F5F5;}</style>
+
+</head>
+<body class="auth-body">
+	<style>.auth-loading-hidden {display: none;}.auth-loading {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}.auth-loading-text {padding-left: 6px;}</style>
+	<div class="auth-loading-hidden auth-loading" id="auth-loading">
+		<img src="//ssl.gstatic.com/docs/script/images/spin-wait.gif"><span class="auth-loading-text">Waiting for authorization...</span>
+	</div>
+	<div id="auth-required">
+		<img class="logo" src="//ssl.gstatic.com/docs/script/images/logo.png" alt="Google Apps Script"><h1 class="project-name">Recours ESIS S1 2021-2022 (Unverified)</h1>
+		<p class="auth-prompt">The developer of <strong class="overflow-protected">Recours ESIS S1 2021-2022</strong>, <a href="mailto:publication.resultats@esisalama.org">publication.resultats@esisalama.org</a>, needs your permission to access your data on Google.</p>
+		<hr>
+		<div class="auth-warning">
+			<img class="warning-icon" alt="GoogleAppsScript" src="//ssl.gstatic.com/images/icons/material/system/1x/warning_amber_24dp.png"> <p class="warning-text">When reviewing permissions, consider whether you trust <strong class="overflow-protected">Recours ESIS S1 2021-2022</strong>.
+			</p>
+		</div>
+		<hr>
+		<div class="auth-buttons">
+			<button id="auth-button-cancel" class="auth-button">Cancel</button>
+			<button id="auth-button-confirm" class="auth-button">Review Permissions</button>
+		</div>
+	</div>
+	<div id="auth-cancel">Execution canceled. You may now close the tab/window or <a id="auth-cancel-link" href="">reload the page</a> to try again.
+	</div>
+	<script type="text/javascript">function reloadAfterAuth() {window.location.reload();}function showAuthPrompt() {var height = 500; var width = 654; var top = (screen.height - height) / 2; var left = (screen.width - width) / 2; var positionString = 'height=' + height + ',width=' + width + ',top=' + top + ',left=' + left + ',scrollbars=yes'; window.open('https:\/\/accounts.google.com\/o\/oauth2\/auth?client_id\x3d290238004065-fkigsg6l25t3t2k5i03h4qakm6v95tp9@developer.gserviceaccount.com\x26redirect_uri\x3dhttps:\/\/script.google.com\/oauthcallback\x26state\x3d8367521686261596160\x26scope\x3dhttps:\/\/www.googleapis.com\/auth\/spreadsheets+https:\/\/www.googleapis.com\/auth\/userinfo.email\x26response_type\x3dnone+gsession\x26access_type\x3doffline\x26approval_prompt\x3dforce\x26hl\x3dfr\x26login_hint\x3d20km113@esisalama.org', '_blank', positionString); showAuthLoading();}function showAuthRequired() {document.getElementById('auth-required').style.display = "block"; document.getElementById('auth-cancel').style.display = "none"; document.getElementById('auth-loading').style.display = "none";}function showAuthCancel() {document.getElementById('auth-required').style.display = "none"; document.getElementById('auth-cancel').style.display = "block"; document.getElementById('auth-loading').style.display = "none";}function showAuthLoading() {document.getElementById('auth-required').style.display = "none"; document.getElementById('auth-cancel').style.display = "none"; document.getElementById('auth-loading').style.display = "block";}document.getElementById('auth-button-cancel').onclick = showAuthCancel; document.getElementById('auth-button-confirm').onclick = showAuthPrompt; document.getElementById('auth-cancel-link').onclick = showAuthRequired;</script>
+</body>
+</html>

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title>Esisalama</title> 
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+	 <style type="text/css">
+	 	.navbar {
+	padding: 50px;
+	text-align: center;
+	background: #1abc8c;
+	color: aqua;
+}
+.col-xs-12{
+	margin-top: 0%;
+}
+	 </style>
+	</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+  <img src="assets/img/logo.png" alt="logo"> </a> <span class="visible-xs titre-site" id="titre-site-xs">E.S.I.S.</span> 
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Accueil.html">Accueil</a>
+        </li>
+        
+      <div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Education
+  </a>
+
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="horaire.html">Horaire des cours</a></li>
+    <li><a class="dropdown-item" href="centredexcellence.html">Centre d'Excellence
+    <li><a class="dropdown-item" href="BIBLIOTHEQUE.html">Bibliothèque</a></li>
+    <li><a class="dropdown-item" href="resultat.html" target="_blank">Publication résultats</a></li>
+    <li><a class="dropdown-item" href="recours.html" target="_blank">Recours</a></li>
+    <li><a class="dropdown-item" href="E-learnig.html" target="_blank">E-learning</a></li>
+  </ul>
+</div>
+
+        <li class="nav-item">
+          <a class="nav-link" href="Actualite.HTML">Actualites</a>
+        </li>
+         <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    A propos d'esis
+  </a>
+
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="Apropos.html">Presentation</a></li>
+    <li><a class="dropdown-item" href="">cursus</a></li>
+    <li><a class="dropdown-item" href="">Admission</a></li>
+    <li><a class="dropdown-item" href="" target="_blank">Nous contacter</a></li>
+  </ul>
+</div>
+    </div>
+  </div>
+</nav>
+
+		  	  	  	  
+		  	  	  	  	 <div class="container-fluid" id="cadre-carousel"> 
+		  	  	  	  	 	<div id="CarouselPrincipal" class="carousel slide" data-ride="carousel"> <!-- Indicateurs --> 
+		  	  	  	  	 		<ol class="carousel-indicators"> 
+		  	  	  	  	 			<li data-target="#CarouselPrincipal" data-slide-to="0" class="active"></li> 
+		  	  	  	  	 			<li data-target="#CarouselPrincipal" data-slide-to="1" class=""></li> 
+		  	  	  	  	 			<li data-target="#CarouselPrincipal" data-slide-to="2" class=""></li> 
+		  	  	  	  	 			<li data-target="#CarouselPrincipal" data-slide-to="3" class=""></li> 
+		  	  	  	  	 			<li data-target="#CarouselPrincipal" data-slide-to="4"></li> 
+		  	  	  	  	 		</ol> 
+		  	  	  	  	 		<!-- Images --> 
+		  	  	   	  	 		<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+    <img src="banner_principale.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+     <img src="banner_genie_log.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="banner_reseaux.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="banner_design.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+		  	  	  	  	 		<!-- Contrôleurs --> 
+		  	  	  	  	 		<a class="left carousel-control" href="#CarouselPrincipal" role="button" data-slide="prev"> 
+		  	  	  	  	 			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> 
+		  	  	  	  	 			<span class="sr-only">Précédent</span> 
+		  	  	  	  	 		</a> 
+		  	  	  	  	 		<a class="right carousel-control" href="#CarouselPrincipal" role="button" data-slide="next"> 
+		  	  	  	  	 			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> 
+		  	  	  	  	 			<span class="sr-only">Suivant</span> 
+		  	  	  	  	 		</a> 
+		  	  	  	  	 	</div> 
+		  	  	  	  	 </div>
+		  	  	  	  	  <!-- Titre de la page --> 
+		  	  	  	  	  <div class="container-fluid titre-fixe titre-page titre-fixe-on" id="titre-page-accueil"> 
+		  	  	  	  	  	<div class="row"> 
+		  	  	  	  	  		<div class="col-xs-12 col-sm-3 col-md-2"> 
+		  	  	  	  	  			<h1><span class="glyphicon glyphicon-home"></span> Accueil</h1> 
+		  	  	  	  	  		</div> 
+		  	  	  	  	  		<div class="col-xs-12 col-sm-9 col-md-10" id="cadre-scroll-msg"> 
+		  	  	  	  	  			<p> <span id="scroll-msg" style="left: 13px;"> </span> </p> 
+		  	  	  	  	  		</div> 
+		  	  	  	  	  	</div> 
+		  	  	  	  	  </div> 
+		  	  	  	  	  <!-- Corps de la page --> 
+		  	  	  	  	  <div class="container-fluid" id="bloc-accueil"> 
+		  	  	  	  	  	<div class="row"> <!-- Actualités --> 
+		  	  	  	  	  		<div class="col-xs-12 col-md-8"> <!-- Titre actualités --> 
+		  	  	  	  	  			<div class="row"> 
+		  	  	  	  	  				<div class="col-xs-12"> 
+		  	  	  	  	  					<div class="en-tete-page"> <h2 class="">Actualités<small> | <a href="Actualite.HTML">Voir toutes</a></small></h2> 
+		  	  	  	  	  					</div> 
+		  	  	  	  	  				</div> 
+		  	  	  	  	  			</div> 
+		  	  	  	  	  			<!-- Corps actualités --> 
+		  	  	  	  	  			<div class="row" id="bloc-actualites"> 
+		  	  	  	  	  				<div class="col-xs-12"> 
+		  	  	  	  	  					<div class="row"> 
+		  	  	  	  	  						<div class="col-xs-12 col-sm-6"> 
+		  	  	  	  	  							<div class="thumbnail"> 
+		  	  	  	  	  								<img class="image-loader" src="assets/img/autres/image-loader-blue.gif" alt="" style="display: none;"> 
+		  	  	  	  	  								<img class="image-dynamique" src="assets/img/actualite/img-25082022-141338.png" alt="" style=""> 
+		  	  	  	  	  								<div class="caption text-justify"> 
+		  	  	  	  	  									<h3 class="text-left">PROGRAMME DE LA JOURNEE SCIENTIFIQUE <small>(25/08/2022)</small> </h3> 
+		  	  	  	  	  									<div>08h00 : Arrivée des étudiants 08h45 : Arrivée des invités 09h00 : Hymne national &amp; Hymne ESIS 09h10 : - Présentation du programme (Modérateur) - Mot de bienvenue DG - Mot du représentant du ministre de l’ESU - Mot du [...]
+		  	  	  	  	  									</div> 
+		  	  	  	  	  									<div> 
+		  	  	  	  	  										<a href="Actualite.HTML" class="btn btn-primary" role="button">Lire plus</a> 
+		  	  	  	  	  									</div> 
+		  	  	  	  	  								</div> 
+		  	  	  	  	  							</div> 
+		  	  	  	  	  						</div> 
+		  	  	  	  	  						<div class="col-xs-12 col-sm-6"> 
+		  	  	  	  	  							<div class="thumbnail"> 
+		  	  	  	  	  								<img class="image-loader" src="assets/img/autres/image-loader-blue.gif" alt="" style="display: none;"> 
+		  	  	  	  	  								<img class="image-dynamique" src="assets/img/actualite/img-11072022-183756.jpg" alt="" style=""> 
+		  	  	  	  	  								<div class="caption text-justify"> 
+		  	  	  	  	  									<h3 class="text-left">CONFÉRENCE DE L’UNOPS À ESIS <small>(11/07/2022)</small> </h3> 
+		  	  	  	  	  									<div>Ce mercredi 6 juillet 2022, Esis a reçu une délégation de l’UNOPS, venue tenir une conférence sur les opportunités de stage et d’emploi y offertes. La délégation était conduite par Madame Ndèye Oulimata NDIONGUE, du b [...]
+		  	  	  	  	  									</div> 
+		  	  	  	  	  									<div> 
+		  	  	  	  	  										<a href="?module=actualite&amp;id_actu=82" class="btn btn-primary" role="button">Lire plus</a> 
+		  	  	  	  	  									</div> 
+		  	  	  	  	  								</div> 
+		  	  	  	  	  							</div> 
+		  	  	  	  	  						</div> 
+		  	  	  	  	  					</div>
+		  	  	  	  	  					<div class="row"> 
+		  	  	  	  	  						<div class="col-xs-12 col-sm-6"> 
+		  	  	  	  	  							<div class="thumbnail"> 
+		  	  	  	  	  								<img class="image-loader" src="assets/img/autres/image-loader-blue.gif" alt="" style="display: none;"> 
+		  	  	  	  	  								<img class="image-dynamique" src="assets/img/actualite/img-11072022-072850.jpg" alt="" style=""> 
+		  	  	  	  	  								<div class="caption text-justify"> 
+		  	  	  	  	  									<h3 class="text-left">CONSTRUCTION PREMIER NIVEAU BLOC A <small>(11/07/2022)</small> </h3> 
+		  	  	  	  	  									<div>Les travaux de construction du premier niveau du Bloc A ont démarré cette année. Contrairement à la maquette initiale qui prévoyait la construction de deux niveaux supplémentaires, en dehors du rez de chaussée, un seu [...]
+		  	  	  	  	  									</div> 
+		  	  	  	  	  									<div> 
+		  	  	  	  	  										<a href="?module=actualite&amp;id_actu=81" class="btn btn-primary" role="button">Lire plus</a> 
+		  	  	  	  	  									</div> 
+		  	  	  	  	  								</div> 
+		  	  	  	  	  							</div> 
+		  	  	  	  	  						</div> 
+		  	  	  	  	  						<div class="col-xs-12 col-sm-6"> 
+		  	  	  	  	  							<div class="thumbnail"> 
+		  	  	  	  	  								<img class="image-loader" src="assets/img/autres/image-loader-blue.gif" alt="" style="display: none;"> 
+		  	  	  	  	  								<img class="image-dynamique" src="assets/img/actualite/img-03062022-143540.jpeg" alt="" style=""> <div class="caption text-justify"> 
+		  	  	  	  	  									<h3 class="text-left">FÊTE DE MARIE AUXILIATRICE <small>(03/06/2022)</small> </h3> 
+		  	  	  	  	  									<div>« C’est elle qui a tout fait » est la phrase historique que Don Bosco a laissée à tous ses fils et filles en parlant de Marie. Ce Samedi 04-06-2022 sera organisée à l’Ecole Supérieure d’Informatique SALAMA la fête de Mari [...]
+		  	  	  	  	  									</div> 
+		  	  	  	  	  									<div> 
+		  	  	  	  	  										<a href="?module=actualite&amp;id_actu=80" class="btn btn-primary" role="button">Lire plus</a> 
+		  	  	  	  	  									</div> 
+		  	  	  	  	  								</div> 
+		  	  	  	  	  							</div> 
+		  	  	  	  	  						</div> 
+		  	  	  	  	  					</div> 
+		  	  	  	  	  				</div> 
+		  	  	  	  	  			</div> 
+		  	  	  	  	  		</div> 
+		  	  	  	  	  		<!-- Evénements --> 
+		  	  	  	  	  		<div class="col-xs-12 col-md-4"> <!-- Titre événements --> 
+		  	  	  	  	  			<div class="row"> <div class="col-xs-12"> 
+		  	  	  	  	  				<div class="en-tete-page"> <h2 class="">Evénements</h2> 
+		  	  	  	  	  				</div> 
+		  	  	  	  	  			</div> 
+		  	  	  	  	  		</div> 
+		  	  	  	  	  		<!-- Corps événements --> 
+		  	  	  	  	  		<div class="row"> 
+		  	  	  	  	  			<div class="col-xs-12"> 
+		  	  	  	  	  				<ul class="liste-evenements"> <!-- Evénement Spécial --> 
+		  	  	  	  	  					<li class="row" id="special-event"> 
+		  	  	  	  	  						<div class="col-xs-12"> 
+		  	  	  	  	  							<h3>Inscription année académique 2022-2023 </h3> 
+		  	  	  	  	  							<p class="text-justify"> Les inscriptions pour l’année académique 2022-2023, aux premier et deuxième cycles, ont déjà débuté. </p> 
+		  	  	  	  	  							<p class="text-center"> <span class="glyphicon glyphicon-hand-right"></span> <a href="index.php?module=apropos&amp;onglet=admission"> Cliquez pour voir la procédure d'inscription </a> </p> 
+		  	  	  	  	  						</div>
+		  	  	  	  	  					</li> 
+
+		  	  	  	  	  					<li class="row" id="special-event"> 
+		  	  	  	  	  						<div class="col-xs-12 text-justify"> 
+		  	  	  	  	  							<h3>DIPLOMES ESIS</h3> 
+		  	  	  	  	  							<p><em><a target="_blank" href="assets/other/Diplomes_ESIS.pdf">Cliquez ici pour télécharger</a></em> <span class="glyphicon glyphicon-hand-left"></span> le fichier contenant la liste des noms par année académique et par filière des diplômes récemment reçus.</p> <p> Le droit de retrait se paie à la banque ou à notre comptabilité sur place à ESIS. 
+		  	  	  	  	  							</p> 
+		  	  	  	  	  							<p>Pour plus d'informations, s'adresser au bureau de la réception à la bibliothèque.</p> 
+
+		  	  	  	  	  						</div> 
+		  	  	  	  	  					</li> 
+		  	  	  	  	  					<!-- Début PHP --> <!-- Evénement 2 --> 
+		  	  	  	  	  				</ul> 
+		  	  	  	  	  			</div> 
+		  	  	  	  	  		</div> 
+		  	  	  	  	  		<!-- Calendrier --> 
+		  	  	  	  	  		<div class="row"> <div class="col-xs-12"> 
+		  	  	  	  	  			<table class="table table-bordered table-style table-responsive" id="calendrier-accueil"> 
+		  	  	  	  	  				<tbody>
+		  	  	  	  	  					<tr> 
+		  	  	  	  	  						<th colspan="7"> <span class="glyphicon glyphicon-calendar"></span> Septembre 2022 </th> 
+		  	  	  	  	  					</tr> 
+		  	  	  	  	  					<tr class="bg-info"> 
+		  	  	  	  	  						<th>D</th> 
+		  	  	  	  	  						<th>L</th> 
+		  	  	  	  	  						<th>M</th> 
+		  	  	  	  	  						<th>M</th> 
+		  	  	  	  	  						<th>J</th> 
+		  	  	  	  	  						<th>V</th> 
+		  	  	  	  	  						<th>S</th> 
+		  	  	  	  	  					</tr> 
+		  	  	  	  	  					<!-- Début PHP --> 
+		  	  	  	  	  					<tr>
+		  	  	  	  	  						<td> </td>
+		  	  	  	  	  						<td> </td>
+		  	  	  	  	  						<td> </td>
+		  	  	  	  	  						<td> </td>
+		  	  	  	  	  						<td>1</td>
+		  	  	  	  	  						<td>2</td>
+		  	  	  	  	  						<td>3</td>
+		  	  	  	  	  					</tr>
+		  	  	  	  	  					<tr>
+		  	  	  	  	  						<td>4</td>
+		  	  	  	  	  						<td>5</td>
+		  	  	  	  	  						<td>6</td>
+		  	  	  	  	  						<td>7</td>
+		  	  	  	  	  						<td>8</td>
+		  	  	  	  	  						<td>9</td>
+		  	  	  	  	  						<td>10</td>
+		  	  	  	  	  					</tr>
+		  	  	  	  	  					<tr>
+		  	  	  	  	  						<td>11</td>
+		  	  	  	  	  						<td class="today">12</td>
+		  	  	  	  	  						<td>13</td>
+		  	  	  	  	  						<td>14</td>
+		  	  	  	  	  						<td>15</td>
+		  	  	  	  	  						<td>16</td>
+		  	  	  	  	  						<td>17</td>
+		  	  	  	  	  					</tr>
+		  	  	  	  	  					<tr>
+		  	  	  	  	  						<td>18</td>
+		  	  	  	  	  						<td>19</td>
+		  	  	  	  	  						<td>20</td>
+		  	  	  	  	  						<td>21</td>
+		  	  	  	  	  						<td>22</td>
+		  	  	  	  	  						<td>23</td>
+		  	  	  	  	  						<td>24</td>
+		  	  	  	  	  					</tr>
+		  	  	  	  	  					<tr>
+		  	  	  	  	  						<td>25</td>
+		  	  	  	  	  						<td>26</td>
+		  	  	  	  	  						<td>27</td>
+		  	  	  	  	  						<td>28</td>
+		  	  	  	  	  						<td>29</td>
+		  	  	  	  	  						<td>30</td>
+		  	  	  	  	  						<td></td>
+		  	  	  	  	  					</tr> 
+		  	  	  	  	  					<!-- Fin PHP --> 
+		  	  	  	  	  				</tbody>
+		  	  	  	  	  			</table>
+		  	  	  	  	  		</div> 
+		  	  	  	  	  	</div> 
+		  	  	  	  	  </div> </div> 
+		  	  	  	  	</div>
+		  	  	  	  	<!-- Pied de page --> 
+		  	  	  	  	<footer> 
+		  	  	  	  		<div class="container-fluid"> 
+		  	  	  	  			<div class="row" id="bloc-info-plus"> 
+		  	  	  	  				<div class="col-xs-12 col-md-4"> 
+		  	  	  	  					<h3 class="titre-pied">COORDONNEES</h3> 
+		  	  	  	  					<p> République Démocratique du Congo (RDC)<br> <span class="glyphicon glyphicon-earphone"></span> +(243) 82 226 74 72<br> 
+		  	  	  	  						<a href="mailto:info@esisalama.org"> <span class="glyphicon glyphicon-envelope"></span> info@esisalama.org </a> </p> 
+		  	  	  	  					</div> 
+		  	  	  	  					<div class="col-xs-12 col-md-4"> 
+		  	  	  	  						<h3 class="titre-pied">QUELQUES LIENS UTILES</h3> 
+		  	  	  	  						<p><a href="horaire.html">Horaires des cours</a> </p> 
+															<p><a href="Actualite.html">Voir actualités</a> </p> 
+		  	  	  	  					</div> 
+		  	  	  	  					<div class="col-xs-12 col-md-4"> 
+		  	  	  	  						<h3 class="titre-pied">RESTONS CONNECTES</h3> 
+		  	  	  	  						<p> 
+		  	  	  	  							<a href="https://www.google.com" target="_blank"> 
+		  	  	  	  								<img src="assets/img/autres/GooglePlus.svg" alt="logo GooglePlus"> </a> 
+		  	  	  	  								<a href="https://www.facebook.com/EsisOfficiel" target="_blank"> 
+		  	  	  	  									<img src="assets/img/autres/Facebook.svg" alt="logo Facebook"> </a> 
+		  	  	  	  									<a href="https://www.youtube.com/channel/UCtDV8isvHNC0fli1FjYB-Xw" target="_blank"> 
+		  	  	  	  										<img src="assets/img/autres/Youtube.svg" alt="logo Youtube"> </a> 
+		  	  	  	  									</p> 
+		  	  	  	  								</div> 
+		  	  	  	  							</div> 
+		  	  	  	  						</div> 
+		  	  	  	  						<div class="container" id="bloc-copyright"> 
+		  	  	  	  							<div class="row"> 
+		  	  	  	  								<div class="col-xs-12"> Copyright © ESISALAMA 2022 </div> 
+		  	  	  	  							</div> 
+		  	  	  	  						</div> 
+		  	  	  	  					</footer> 
+	</body>
+</html>

@@ -1,0 +1,36 @@
+.principal{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.principal div {
+	margin: 5px;
+	padding: 3rem;
+	text-align: center;
+}
+
+.presentation {
+	background-color: skyblue ;
+}
+
+.pres{
+	background-color: royalblue;
+	
+}
+.servicesofferts {
+	background-color: skyblue;
+}
+
+.ser{
+	background-color: royalblue;
+	
+}
+
+.horetcong {
+	background-color: skyblue ;
+}
+
+.hor{
+	background-color: royalblue;
+	
+}

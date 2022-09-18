@@ -1,0 +1,35 @@
+.ceprincipal{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.ceprincipal div {
+	margin: 5px;
+	padding: 3rem;
+	text-align: center;
+}
+
+.quisommesnous{
+	background-color: skyblue ;
+}
+
+.qsn{
+	background-color: royalblue;
+	
+}
+.certif {
+	background-color: skyblue;
+}
+
+.crtf{
+	background-color: royalblue;
+	
+}
+
+.modules {
+	background-color: skyblue ;
+}
+
+.mdl{
+	background-color: royalblue;
+	
+}
